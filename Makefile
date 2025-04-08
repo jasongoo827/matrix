@@ -30,4 +30,4 @@ fclean: clean
 	@if exist $(NAME)_debug.exe del $(NAME)_debug.exe
 	@if exist $(NAME)_release.exe del $(NAME)_release.exe
 
-.PHONY: all build clean
+.PHONY: all build clean fclean
